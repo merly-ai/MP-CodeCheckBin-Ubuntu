@@ -21,6 +21,12 @@ improving the overall quality of the existing software. For this limited release
 ability to perform inference (i.e., detect good or bad patterns) on code. In subsequent releases of MPCC, we may also include
 the ability to train new models on other code bases, including users’ own proprietary ones.
 
+## Pre-Setup Instructions
+For Linux, download the .tar.gz and then perform:
+
+*tar xzvf MP-CodeCheck_v0.1.2_22-04-19.tar.gz*
+
+This will extract the files from the compressed tar ball.
 
 ## Setup Instructions
 Prior to running inference and reviewing the results, let’s set up the environment. To run MPCC, you’ll need the following three
