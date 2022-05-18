@@ -57,22 +57,22 @@ the same directory as MPCC. Your setup is now complete!
 Now that setup is complete, let’s launch MPCC to perform inference analysis. From the command line interface (CLI), type the
 following (where ”[code base folder]” is a directory that contains the code you want to analyze):
 
-*MPCC.exe infer -D [code base folder]*
+*./MPCC infer -D [code base folder]*
 
 When run successfully, MPCC will display information that looks similar to the following screen. This shows the progress of MPCC extracting the code DNA from the training data.
 
-<img width="674" alt="Training2" src="https://user-images.githubusercontent.com/92695077/163893521-55bebb7a-7004-4f56-a2cd-af6de7b1dce7.png">
+<img width="769" alt="launch1" src="https://user-images.githubusercontent.com/92695077/169102884-2df8f152-5b54-4546-a194-d3ceb32c12c3.png">
 
 When MPCC has loaded its trained model and processed the code DNA, it begins inference analysis on all source code that
 it finds in the files of the directory (or subdirectories) you have supplied when launching it. The image below shows an example of
 MPCC’s inference progress in analyzing a code repository, how much work it has completed, and how much work is remaining.
 
-<img width="675" alt="Inference2" src="https://user-images.githubusercontent.com/92695077/163893537-aab75054-16bf-4e85-9696-40e00e8fe7ca.png">
+<img width="769" alt="launch2" src="https://user-images.githubusercontent.com/92695077/169102952-dffaab20-4a7c-4c2d-a09b-f4fde0373321.png">
 
 When inference analysis has completed, the Code View screen will appear (see image below), which will allow a user to
 analyze the inference results as discussed in the next section.
 
-<img width="705" alt="CodeView" src="https://user-images.githubusercontent.com/92695077/163842762-71dd7e1f-4f25-4be2-a59c-b51bec239480.png">
+<img width="769" alt="CodeView" src="https://user-images.githubusercontent.com/92695077/169102988-d6b250f8-d681-4167-8f1e-63919cc7c031.png">
 
 
 ## Exploring MPCC's Inference Results
