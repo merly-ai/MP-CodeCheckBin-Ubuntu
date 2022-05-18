@@ -22,11 +22,24 @@ ability to perform inference (i.e., detect good or bad patterns) on code. In sub
 the ability to train new models on other code bases, including users’ own proprietary ones.
 
 ## Pre-Setup Instructions
-For Linux, download the .tar.gz and then perform:
+For Linux Ubuntu, go to the Command Line Interface (CLI) and execute the following commands:
 
-*tar xzvf MP-CodeCheck_v0.1.2_22-04-19.tar.gz*
+*apt update*
 
-This will extract the files from the compressed tar ball.
+*apt install libssh2-1 libtbb2*
+
+*mkdir install*
+
+*cd install/*
+
+*curl -OL https://github.com/merly-ai/MP-CodeCheckBin-Ubuntu/raw/main/bin/latest/MerlyInstaller*
+
+*chmod +x MerlyInstaller*
+
+*./MerlyInstaller install*
+
+Your’re now ready to launch MP-CodeCheck!
+
 
 ## Setup Instructions
 Prior to running inference and reviewing the results, let’s set up the environment. To run MPCC, you’ll need the following three
