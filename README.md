@@ -81,7 +81,8 @@ After inference analysis is performed, MPCC will show a user interface that incl
 We call this screen the *Code View*, which will be described in more detail in Views section of this manual. The image below provides an
 example of an anomalous code example found by MPCC.
 
-![CodeView with identifiers](https://user-images.githubusercontent.com/92695077/163843319-26c465c0-c735-49fa-92a4-392f28923a92.png)
+<img width="1395" alt="anomaly" src="https://user-images.githubusercontent.com/92695077/169103117-e039e3f9-61a7-4c82-a883-ab99abd8eb96.png">
+
 
 Here's a description of what you'll see on this screen:
 
