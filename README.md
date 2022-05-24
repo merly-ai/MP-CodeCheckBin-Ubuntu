@@ -2,7 +2,7 @@ Thank you for visiting Merly's MP-CodeCheck GitHub repository! We are happy you 
 
 Please email us with any questions, comments, issues, or anything related to MP-CodeCheck to support@merly.ai or debugging@merly.ai. We would love to hear from you!
 
-MP-CodeCheck currently works with C, C++, C#, Go, Java, JavaScript, and Python. We plan to continue to add support for other programming languages in the future.
+MP-CodeCheck currently works with C, C++, C#, Go, Java, JavaScript, PHP, and Python. We plan to continue to add support for other programming languages in the future.
 
 ![merlydog_favicon](https://user-images.githubusercontent.com/92695077/163842195-66aabaa5-9db3-4499-8593-ae40fbef6e97.png)
 
@@ -39,18 +39,6 @@ Note that if you previously installed MP-CodeCheck but now have a product key, r
 the key, and is safe to be performed.
   
 You’re now ready to launch MP-CodeCheck!
-
-## Folder Structure
-Prior to running inference and reviewing the results, let’s make sure the environment is set up correctly. To run MPCC, you’ll need the following three
-things (at a minimum):
-1. A model trained on code (provided during setup).
-2. The MPCC executable (provided during setup).
-3. A code base to run inference against (provided by you, the user).
-
-Please ensure both the MPCC model and the executable file were placed in the same folder. (This should have been completed
-for you by following the steps in setup.)
-Then, to simplify inference, we recommend you place the code repository folder in the same directory as MPCC. Your setup is now complete!
-
 
 ## Launching MP-CodeCheck
 Now that setup is complete, let’s launch MPCC to perform inference analysis. From the command line interface (CLI), type the
